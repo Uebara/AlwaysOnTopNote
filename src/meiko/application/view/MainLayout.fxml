@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="156.0" prefWidth="232.0" styleClass="decoration-background" stylesheets="@mystyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="meiko.application.view.MainController">
+   <children>
+      <Button layoutX="85.0" mnemonicParsing="false" onAction="#handleClose" prefHeight="29.0" prefWidth="32.0" styleClass="decoration-button-close" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="13.0" />
+      <ImageView fx:id="topimageview" fitHeight="38.0" fitWidth="200.0" layoutX="6.0" layoutY="-16.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0" />
+      <Region blendMode="SOFT_LIGHT" disable="true" layoutX="16.0" layoutY="38.0" prefHeight="122.0" prefWidth="222.0" styleClass="decoration-shadow" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="43.0">
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#615c5c80" height="18.0" offsetY="2.5" radius="6.5" width="10.0" />
+         </effect>
+      </Region>
+      <Region blendMode="SOFT_LIGHT" disable="true" layoutX="5.0" layoutY="-25.0" prefHeight="122.0" prefWidth="222.0" styleClass="decoration-default-shadow" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="43.0" />
+      <TextArea fx:id="contentArea" layoutX="9.0" layoutY="-87.0" prefHeight="122.0" prefWidth="222.0" stylesheets="@mystyle.css" wrapText="true" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="43.0">
+         <font>
+            <Font name="Microsoft YaHei" size="16.0" />
+         </font>
+      </TextArea>
+   </children>
+   <effect>
+      <Blend />
+   </effect>
+</AnchorPane>

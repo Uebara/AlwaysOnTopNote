@@ -1,0 +1,67 @@
+.decoration-background{
+	-fx-background-color:#FFFFFF00;
+    }
+
+.decoration-shadow{
+-fx-background-color: #000000;
+
+}
+
+.decoration-default-shadow{
+	-fx-background-color: #ffffff;
+}
+
+.text-area {
+    -fx-background-insets: 0.0;
+    -fx-background-color: transparent, #ffeded, transparent, #ffeded;
+}
+
+.text-area .content {
+    -fx-background-color: linear-gradient(to bottom, #fff4f4,#ffeded);
+}
+
+.text-area:focused .content {
+    -fx-background-color: linear-gradient(to bottom, #fff4f4,#ffeded);
+}
+
+.text-area:focused {
+    -fx-highlight-fill: #7ecfff;
+}
+
+.text-area .content {
+    -fx-padding: 10.0px;
+    -fx-text-fill: gray;
+    -fx-highlight-fill: #7ecfff;
+}
+
+/*
+*	Close button
+*/
+.decoration-button-close{
+    -fx-background-radius: 0.0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./close-hover2.png");
+    -fx-background-repeat:no-repeat;
+}
+.decoration-button-close:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("./close.png");
+    -fx-background-repeat:no-repeat;
+}
+
+/*
+*	love button
+*/
+.decoration-button-love{
+    -fx-background-radius: 0.0;
+    -fx-border-style: null;
+    -fx-background-color: null;
+    -fx-background-image:url("./clearlove-sprites1.png");
+    -fx-background-repeat:no-repeat;
+}
+.decoration-button-love:hover{
+    -fx-background-color: null;
+    -fx-background-image:url("./clearlove-sprites2.png");
+    -fx-background-repeat:no-repeat;
+}

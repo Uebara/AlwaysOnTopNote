@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="130.0" prefWidth="146.0" style="-fx-background-color: #fdfdfd;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="meiko.application.view.SettingController">
+   <children>
+      <AnchorPane layoutY="41.0" prefHeight="89.0" prefWidth="147.0" style="-fx-background-color: #f4f4f4;" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <CheckBox fx:id="isOnTop" mnemonicParsing="false" selected="true" text="置顶" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="20.0" />
+            <CheckBox fx:id="isAutoRun" layoutY="74.0" mnemonicParsing="false" text="开机自启动" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="2.0" layoutY="7.0" text="设置" underline="true" AnchorPane.leftAnchor="10.0" />
+      <Button layoutX="92.0" layoutY="3.0" mnemonicParsing="false" onAction="#handleClose" prefHeight="30.0" prefWidth="30.0" styleClass="decoration-button-close" stylesheets="@mystyle.css" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>
